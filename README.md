@@ -2,28 +2,36 @@
 
 The system allows users to perform basic banking operations such as:
 
-Account creation (via class instantiation)
+   Account creation (via class instantiation)
 
-Depositing money (with bonus in savings account)
+   Depositing money (with bonus in savings account)
 
-Withdrawing money (including an option to include transaction fee)
+   Withdrawing money (including an option to include transaction fee)
 
-Viewing account details
+   Viewing account details
 
 # Classes:
 
 Account (Abstract Class):
-Contains private account details
-Abstract methods: deposit(), displayBalance()
-Overloaded withdraw() methods
+
+   Contains private account details
+   
+   Abstract methods: deposit(), displayBalance()
+   
+   Overloaded withdraw() methods
 
 BankAccount:
-Inherits from Account
-Implements deposit without bonus
+
+   Inherits from Account
+   
+   Implements deposit without bonus
 
 SavingsAccount:
-Inherits from Account
-Overrides deposit to include a bonus (2%)
+
+   Inherits from Account
+   
+   Overrides deposit to include a bonus (2%)
 
 Bank:
-Main class to test the functionality using polymorphism
+
+   Main class to test the functionality using polymorphism
