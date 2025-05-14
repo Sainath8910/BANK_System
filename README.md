@@ -17,13 +17,13 @@ Contains private account details
 Abstract methods: deposit(), displayBalance()
 Overloaded withdraw() methods
 
-BankAccount
+BankAccount:
 Inherits from Account
 Implements deposit without bonus
 
-SavingsAccount
+SavingsAccount:
 Inherits from Account
 Overrides deposit to include a bonus (2%)
 
-Bank
+Bank:
 Main class to test the functionality using polymorphism
